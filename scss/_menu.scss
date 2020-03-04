@@ -1,0 +1,64 @@
+$first-color: #19559F;
+$second-color: white;
+$font-family-1: 'Montserrat', sans-serif;
+$font-family-2: 'Alegreya Sans', sans-serif;
+$font-family-3: 'Amiko', sans-serif;
+
+body {
+    background-color: $first-color;
+}
+
+header {
+    font-family: $font-family-1;
+}
+
+img {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.wrapper {
+    background-color: $second-color;
+    color: $first-color;
+    width: 75%;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.wrapper h1, h2 {
+    font-family: $font-family-2;
+    text-align: center;
+}
+
+.wrapper li, p {
+    font-family: $font-family-3;
+}
+
+.wrapper li {
+    list-style: none;
+}
+
+@media (min-width: 600px) {
+    img {
+        width: 60%;
+    }
+
+    .wrapper {
+        width: 70%;
+        padding: 30px;
+    }
+}
+
+@media (min-width: 900px) {
+    img {
+        width: 32%;
+        display: inline-flex;
+        flex: 1;
+    }
+
+    .wrapper {
+        width: 50%;
+    }
+}
