@@ -7,6 +7,7 @@
     text-align: center;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
     font-size: 16px;
     padding: 10px 30px;
 }
@@ -14,13 +15,29 @@
 form {
     background-color: $second-color;
     color: $first-color;
-    width: 75%;
+    width: 60%;
+    display: block;
     margin: 0 auto;
     padding: 20px;
     border-radius: 20px;
     font-family: $font-family-3;
-    line-height: 32px;
+    line-height: 40px;
+    animation: fadeIn ease 2s, mymove 5s infinite;;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
 }
+
+ul {
+    padding: 0;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ } 
+
 
 header, h1 {
     font-family: $font-family-1;
@@ -35,17 +52,48 @@ form li {
     list-style: none;
 }
 
+p {
+    text-align: center;
+}
+
+.name, .quantity {
+    font-family: $font-family-3;
+    margin-left: 10px;
+}
+
+input[type=text]:focus {
+    border: 2px solid $first-color;
+    border-radius: 4px;
+  }
+
+input[type=number]:focus {
+    border: 2px solid $first-color;
+    border-radius: 4px;
+  }
+
+.name {
+    width: 80%;
+}
+
 @media (min-width: 600px) {
     form {
         width: 70%;
         padding: 30px;
-        line-height: 36px;
+        line-height: 40px;
+    }
+
+    .name {
+        width: 50%;
     }
 }
 
 @media (min-width: 900px) {
     form {
-        width: 60%;
-        line-height: 42px;
+        width: 50%;
+        line-height: 48px;
+    }
+
+    .name {
+        width: 35%;
     }
 }
