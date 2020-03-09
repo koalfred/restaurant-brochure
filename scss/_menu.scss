@@ -4,116 +4,118 @@ $font-family-1: 'Montserrat', sans-serif;
 $font-family-2: 'Alegreya Sans', sans-serif;
 $font-family-3: 'Amiko', sans-serif;
 
-body {
-    background-color: $first-color;
-}
+.menu-page, .reservations-page{
+    body {
+        background-color: $first-color;
+    }
 
-header {
-    font-family: $font-family-1;
-}
+    header {
+        font-family: $font-family-1;
+    }
 
-img {
-    width: 90%;
-    margin: 0 auto;
-    display: block;
-}
-
-.wrapper {
-    background-color: $second-color;
-    color: $first-color;
-    width: 75%;
-    margin: 0 auto;
-    padding: 10px;
-    border-radius: 20px;
-    animation: fadeIn ease 2s, mymove 5s infinite;;
-    -webkit-animation: fadeIn ease 2s;
-    -moz-animation: fadeIn ease 2s;
-    -o-animation: fadeIn ease 2s;
-    -ms-animation: fadeIn ease 2s;
-}
-
-ul {
-    padding: 0;
-}
-
-li {
-    text-align: center;
-}
-
-li p {
-    font-size: 14px;
-}
-
-@keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
- } 
-
-.wrapper h1, h2 {
-    font-family: $font-family-2;
-    text-align: center;
-}
-
-.wrapper li, p {
-    font-family: $font-family-3;
-}
-
-	
-td:first-child::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  width:1500px;
-  height:0px ;
-  margin-left: 1em;
-  border-bottom:2px dotted grey;
-}
-	
-
-.wrapper li {
-    list-style: none;
-}
-
-@media (min-width: 600px) {
     img {
-        width: 60%;
+        width: 90%;
+        margin: 0 auto;
+        display: block;
     }
 
     .wrapper {
-        width: 70%;
-        padding: 30px;
-    }
-
-    
-}
-
-@media (min-width: 900px) {
-    img {
-        width: 32.5%;
+        background-color: $second-color;
+        color: $first-color;
+        width: 75%;
         margin: 0 auto;
-        display: inline-flex;
-        flex: 1;
+        padding: 10px;
+        border-radius: 20px;
+        animation: fadeIn ease 2s, mymove 5s infinite;;
+        -webkit-animation: fadeIn ease 2s;
+        -moz-animation: fadeIn ease 2s;
+        -o-animation: fadeIn ease 2s;
+        -ms-animation: fadeIn ease 2s;
     }
 
-    .wrapper {
-        width: 50%;
-        margin: 0 auto;
+    ul {
+        padding: 0;
     }
-    .desserts {
-        padding-top: 20px;
-        column-count: 2;
-    }
-    
-}
 
-@media (min-width: 1000px) {
-    .desserts {
-       column-count: 3;
+    li {
+        text-align: center;
     }
-}
 
-@media (min-width: 1700px) {
-    img {
-        width: 33%;
+    li p {
+        font-size: 14px;
+    }
+
+    @keyframes fadeIn {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+    } 
+
+    .wrapper h1, h2 {
+        font-family: $font-family-2;
+        text-align: center;
+    }
+
+    .wrapper li, p {
+        font-family: $font-family-3;
+    }
+
+        
+    td:first-child::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width:1500px;
+    height:0px ;
+    margin-left: 1em;
+    border-bottom:2px dotted grey;
+    }
+        
+
+    .wrapper li {
+        list-style: none;
+    }
+
+    @media (min-width: 600px) {
+        img {
+            width: 60%;
+        }
+
+        .wrapper {
+            width: 70%;
+            padding: 30px;
+        }
+
+        
+    }
+
+    @media (min-width: 900px) {
+        img {
+            width: 32.5%;
+            margin: 0 auto;
+            display: inline-flex;
+            flex: 1;
+        }
+
+        .wrapper {
+            width: 50%;
+            margin: 0 auto;
+        }
+        .desserts {
+            padding-top: 20px;
+            column-count: 2;
+        }
+        
+    }
+
+    @media (min-width: 1000px) {
+        .desserts {
+        column-count: 3;
+        }
+    }
+
+    @media (min-width: 1700px) {
+        img {
+            width: 33%;
+        }
     }
 }

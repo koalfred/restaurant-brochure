@@ -1,3 +1,189 @@
+.homepage body {
+  background-color: white;
+}
 
+.menu-page body, .reservations-page body {
+  background-color: #19559F;
+}
+.menu-page header, .reservations-page header {
+  font-family: "Montserrat", sans-serif;
+}
+.menu-page img, .reservations-page img {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+.menu-page .wrapper, .reservations-page .wrapper {
+  background-color: white;
+  color: #19559F;
+  width: 75%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+  animation: fadeIn ease 2s, mymove 5s infinite;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+.menu-page ul, .reservations-page ul {
+  padding: 0;
+}
+.menu-page li, .reservations-page li {
+  text-align: center;
+}
+.menu-page li p, .reservations-page li p {
+  font-size: 14px;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.menu-page .wrapper h1, .menu-page h2, .reservations-page .wrapper h1, .reservations-page h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  text-align: center;
+}
+.menu-page .wrapper li, .menu-page p, .reservations-page .wrapper li, .reservations-page p {
+  font-family: "Amiko", sans-serif;
+}
+.menu-page td:first-child::after, .reservations-page td:first-child::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 1500px;
+  height: 0px;
+  margin-left: 1em;
+  border-bottom: 2px dotted grey;
+}
+.menu-page .wrapper li, .reservations-page .wrapper li {
+  list-style: none;
+}
+@media (min-width: 600px) {
+  .menu-page img, .reservations-page img {
+    width: 60%;
+  }
+  .menu-page .wrapper, .reservations-page .wrapper {
+    width: 70%;
+    padding: 30px;
+  }
+}
+@media (min-width: 900px) {
+  .menu-page img, .reservations-page img {
+    width: 32.5%;
+    margin: 0 auto;
+    display: inline-flex;
+    flex: 1;
+  }
+  .menu-page .wrapper, .reservations-page .wrapper {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .menu-page .desserts, .reservations-page .desserts {
+    padding-top: 20px;
+    column-count: 2;
+  }
+}
+@media (min-width: 1000px) {
+  .menu-page .desserts, .reservations-page .desserts {
+    column-count: 3;
+  }
+}
+@media (min-width: 1700px) {
+  .menu-page img, .reservations-page img {
+    width: 33%;
+  }
+}
+
+.reservations-page .submit, .menu-page .submit {
+  font-family: "Amiko", sans-serif;
+  border: none;
+  color: white;
+  background-color: #19559F;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  padding: 10px 30px;
+}
+.reservations-page form, .menu-page form {
+  background-color: white;
+  color: #19559F;
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  font-family: "Amiko", sans-serif;
+  line-height: 40px;
+  animation: fadeIn ease 2s, mymove 5s infinite;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+.reservations-page ul, .menu-page ul {
+  padding: 0;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.reservations-page header, .reservations-page h1, .menu-page header, .menu-page h1 {
+  font-family: "Montserrat", sans-serif;
+}
+.reservations-page form h1, .menu-page form h1 {
+  font-family: "Alegreya Sans", sans-serif;
+  text-align: center;
+}
+.reservations-page form li, .menu-page form li {
+  list-style: none;
+}
+.reservations-page p, .menu-page p {
+  text-align: center;
+}
+.reservations-page .name, .reservations-page .quantity, .menu-page .name, .menu-page .quantity {
+  font-family: "Amiko", sans-serif;
+  margin-left: 10px;
+}
+.reservations-page input[type=text]:focus, .menu-page input[type=text]:focus {
+  border: 2px solid #19559F;
+  border-radius: 4px;
+}
+.reservations-page input[type=number]:focus, .menu-page input[type=number]:focus {
+  border: 2px solid #19559F;
+  border-radius: 4px;
+}
+.reservations-page .name, .menu-page .name {
+  width: 80%;
+}
+@media (min-width: 600px) {
+  .reservations-page form, .menu-page form {
+    width: 70%;
+    padding: 30px;
+    line-height: 40px;
+  }
+  .reservations-page .name, .menu-page .name {
+    width: 50%;
+  }
+}
+@media (min-width: 900px) {
+  .reservations-page form, .menu-page form {
+    width: 50%;
+    line-height: 48px;
+  }
+  .reservations-page .name, .menu-page .name {
+    width: 35%;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
