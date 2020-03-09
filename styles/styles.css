@@ -172,12 +172,10 @@ header .change .bar3 {
 .homepage .menu-row img {
   margin-top: 20px;
   z-index: 2;
-  position: relative;
 }
 .homepage .menu-row .menu h2 {
   position: absolute;
-  top: 50%;
-  z-index: 99;
+  z-index: 5;
   background-color: #19559F;
 }
 

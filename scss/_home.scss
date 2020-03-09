@@ -64,12 +64,15 @@ p {
     text-align: center;
     
     .menu {
+        position: relative;
     }
     img {
         margin-top: 20px;
         z-index: 2;
     }
     .menu h2 {
+        position: absolute;
+        z-index: 5;
         background-color: $main-bg;
     }
 }
