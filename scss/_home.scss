@@ -1,15 +1,78 @@
 .homepage {
-
+main {
+    padding: 40px 10px;
+    max-width: 800px;
+    margin: auto;
+}
 .banner{
-
+    background-color: $main-bg;
     img{
         width: 100%;
     }
     p {
-      
+        padding: 10px;
+        max-width: 800px;
+        font-family: $logo;
+        font-weight: 400;
+        font-size: 16px;
         color: white;
-        font-family: $heading;
-        background-color: rgba(0, 0, 0, 0.384);
+        text-align: center;
+        margin: auto;
     }
 }
+h2 {
+    font-family: $heading;
+    font-weight: 400;
+    color: white;
+    background-color: $main-bg;
+}
+p {
+    font-family: $body;
+    line-height: 1.5em;
+}
+
+//What's new section
+.news {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px 10px 20px 10px;
+    font-size: 16px;
+    // max-width: 600px;
+    margin: auto;
+    p {
+        margin: 10px auto 25px auto;
+        max-width: 450px;
+    }
+    a {
+        text-decoration: none;
+        font-family: $body;
+        color: white;
+        padding: 8px 15px;
+        background-color: $main-bg;
+    }
+    img {
+        padding: 10px 0;
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+    }
+}
+
+//Different menu navigation
+.menu-row {
+    margin-top: 30px;
+    text-align: center;
+    
+    .menu {
+    }
+    img {
+        margin-top: 20px;
+        z-index: 2;
+    }
+    .menu h2 {
+        background-color: $main-bg;
+    }
+}
+
+
 }
