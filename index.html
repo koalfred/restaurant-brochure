@@ -6,34 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Skål - Home</title>
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Amiko|Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400|Amiko|Montserrat:300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
 <header>
-<h1>Skål</h1>
+<h1>SKÅL</h1>
+
+<div id="menu-btn" class="menu-btn" onclick="myFunction(this)">
+    <div class="menu-bar bar1"></div>
+    <div class="menu-bar bar2"></div>
+    <div class="menu-bar bar3"></div>
+</div><!-- end menu-btn -->
+
+<div class="menu-options">
 <div class="lang-select">
 <a href="#0">En</a>
 <a href="#0">Fr</a>
 <a href="#0">Sc</a>
 </div><!-- end of language selection -->
+
     <nav>
         <ul>
-            <li><a href="#0">Home</a></li>
-            <li><a href="#0">About Us</a></li>
-            <li><a href="#0">Menus</a></li>
-            <li><a href="#0">Reservations</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="menu.html">Menus</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
             <li><a href="#0">Events</a></li>
         </ul>
     </nav>
-
-<div class="banner">
-    <img src="" alt="People raising a glass over a dinner table">
-</div><!-- end of banner -->
+</div><!-- end menu options -->
 </header>
 
-<p>Skål means "cheers" in Swedish, and we aim to embody this word in everything we do. It's the spirit of celebrating good company over great food and drinks.</p>
+<div class="banner">
+    <img src="images/home-banner.jpg" alt="People raising a glass over a dinner table">
+    <p>Skål means "cheers" in Swedish, and we aim to embody this word in everything we do. It's the spirit of celebrating good company over great food and drinks.</p>
+</div><!-- end of banner -->
+
 
 <section class="news">
     <h2>What's new?</h2>
@@ -92,5 +102,6 @@
 </div>
 </footer><!-- end of footer -->
 
+<script src="scripts/scripts.js"></script>
 </body>
 </html>
