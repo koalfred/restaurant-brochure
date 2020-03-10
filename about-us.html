@@ -1,18 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Us</title>
-</head>
+<html class="about" lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Skål - Home</title>
+        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400|Amiko|Montserrat:300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
 <body>
     <header>
-        <h1>Skål</h1>
+        <div class="container">
+        <h1>SKÅL</h1>
+        <div id="menu-btn" class="menu-btn" onclick="myFunction(this)">
+            <div class="menu-bar bar1"></div>
+            <div class="menu-bar bar2"></div>
+            <div class="menu-bar bar3"></div>
+        </div><!-- end menu-btn -->
+        <div class="menu-options">
         <div class="lang-select">
-        <a href="#0">EN</a>
-        <a href="#0">FR</a>
-        <a href="#0">SE</a>
+        <a href="#0">En</a>
+        <a href="#0">Fr</a>
+        <a href="#0">Sc</a>
         </div><!-- end of language selection -->
             <nav>
                 <ul>
@@ -23,30 +32,39 @@
                     <li><a href="#0">Events</a></li>
                 </ul>
             </nav>
+        </div><!-- end menu options -->
+        </div>
         </header>
+        <div class="banner">
+            <img src="images/swedish-chef-2.jpg" alt="The real founder of SKÅL">
+            <h1>About us</h1>
+        </div><!-- end of banner -->
     <main>
         <div class="wrapper">
             <div class="welcome">
-                <h1>About us</h1>
-                <p>We are a local Swedish resturant located in the heart of Vancouver British Columbia! We arrived in this land, not only to experiance life here, but to share with all of you what our passion is as well!</p>
-                <h3>Our Mission</h3>
+                <div class="welcome about">
+                    <p>We are a local Swedish resturant located in the heart of Vancouver British Columbia! We arrived in this land, not only to experiance life here, but to share with all of you what our passion is as well!</p>
+                </div><!--end of about-->
+                <div class="welcome mission">
+                    <h3>Our Mission</h3>
                 <p>Our mission is a simple one: To share with you the food of our people! We thought about opening a resturant like this, because of a severe lack of Swedish food in the city.</p>
                 <p>"We will always strive to produce the very best Sweden has to offer!" -- Karl</p>
-            </div>
-            <div class="Staff">
-                <h2>The Team</h2>
+                </div><!--end of mission-->
+            </div><!--end of welcome-->
+            <h2>The Team</h2>
+            <div class="staff">
                 <section class="row-1">
                     <article>
                         <h3>Karl Stiernsköld</h3>
                         <img src="images/raw-images/karl.jpeg" alt="founder/owner">
-                        <p>Founder/Owner<br>
-                        Karl is the owner and founder Skål, and a firm beleiver of freash and organic food. While always striving for the best, he makes sure that the prices of all the dishes are affordable without compromising on quality.</p>
+                        <h3>Owner</h3>
+                        <p>Karl is the owner and founder Skål, and a firm beleiver of freash and organic food. While always striving for the best, he makes sure that the prices of all the dishes are affordable without compromising on quality.</p>
                     </article>
                     <article>
                         <h3>Freja Burensköld</h3>
                         <img src="images/raw-images/Freja.jpg" alt="head chef">
-                        <p>Head Chef<br>
-                        Since She was young Freja has always loved to cook. Today, she still has that same passion and fire for Swedish food, and she is more than exited to share it with the world.</p>
+                        <h3>Head Chef</h3>
+                        <p>Since She was young Freja has always loved to cook. Today, she still has that same passion and fire for Swedish food, and she is more than exited to share it with the world.</p>
                     </article>
                 </section>
                 <section class="row-2">
@@ -66,35 +84,36 @@
     </main>
     <footer>
         <div class="box hours">
-            <p>Hours: <br>
-            Mon-Fri: 11am-9pm <br>
+            <h3>Hours:</h3>
+            <p>Mon-Fri: 11am-9pm <br>
             Sat: 11am-10pm <br>
             Sun: 10am-8pm</p>
         </div><!-- end of hours -->
-        
         <div class="box address">
+            <h3>Address</h3>
             <address>1234 Swedish Street <br>
                 Vancouver, BC <br>
                 V1M 3V6
             </address>
-        </div>
-        
+        </div><!--end of address-->
         <div class="box site-map">
+            <h1>SKÅL</h1>
             <a href="#0">About</a>
             <a href="#0">Menus</a>
             <a href="#0">Reservations</a>
             <a href="#0">Events</a>
-        </div>
-        
+        </div><!--end of site-map-->
         <div class="box contact">
+            <h3>Contact us</h3>
             <p>phone: 604-123-4567 <br>
             email: <a href="#0">skal@info.com</a></p>
-        </div>
-        
-        <div class="social-media">
+        </div><!--end of contact-->
+        <div class="box social-media">
+            <h3>Connect</h3>
             <a href="#0"><img src="" alt="Facebook logo"></a>
             <a href="#0"><img src="" alt="Instagram logo"></a>
-        </div>
+        </div><!--social media-->
     </footer>
+    <script src="scripts/scripts.js"></script>
 </body>
 </html>
