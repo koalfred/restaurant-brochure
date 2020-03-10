@@ -344,6 +344,20 @@ footer {
     margin-bottom: 50px; }
     .about .staff p {
       padding-top: 20px; }
+  @media (min-width: 500px) {
+    .about .row-1, .about .row-2 {
+      display: flex; }
+    .about .row-1 article, .about .row-2 article {
+      margin: 10px; } }
+  @media (min-width: 1000px) {
+    .about .staff {
+      display: flex; }
+    .about .row-1 article, .about .row-2 article {
+      padding-left: 10px;
+      padding-right: 10px; }
+    .about h3 {
+      margin: 0;
+      margin-top: 10px; } }
 
 .reservations-page .submit, .menu-page .submit {
   font-family: "Amiko", sans-serif;
