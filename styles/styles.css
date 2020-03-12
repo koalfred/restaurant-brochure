@@ -447,9 +447,8 @@ footer {
 @media (min-width: 600px) {
   .reservations-page form, .menu-page form {
     line-height: 40px;
-    padding: 10px; }
-    .reservations-page form .telephone, .menu-page form .telephone {
-      margin-left: 1%; }
+    padding: 10px;
+    margin: 0 auto; }
   .reservations-page .name, .menu-page .name {
     width: 50%; } }
 @media (min-width: 900px) {
