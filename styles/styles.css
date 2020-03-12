@@ -260,7 +260,7 @@ footer {
 .menu-page .wrapper, .reservations-page .wrapper {
   background-color: white;
   color: #19559F;
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
   padding: 10px;
   border-radius: 20px;
@@ -310,7 +310,7 @@ footer {
     .menu-page .menu-page .wrapper h1, .menu-page .reservations-page .wrapper h1, .reservations-page .menu-page .wrapper h1, .reservations-page .reservations-page .wrapper h1 {
       padding-top: 90px; }
     .menu-page .menu-page .wrapper img, .menu-page .reservations-page .wrapper img, .reservations-page .menu-page .wrapper img, .reservations-page .reservations-page .wrapper img {
-      width: 60%;
+      width: 30%;
       padding-top: 10px;
       padding-bottom: 10px; } }
 @media (min-width: 900px) {
@@ -320,14 +320,11 @@ footer {
     display: inline-flex;
     flex: 1; }
   .menu-page .wrapper, .reservations-page .wrapper {
-    width: 60%;
+    width: 70%;
     margin: 0 auto; }
   .menu-page .desserts, .reservations-page .desserts {
     padding-top: 20px;
     column-count: 2; } }
-@media (min-width: 1700px) {
-  .menu-page img, .reservations-page img {
-    width: 33%; } }
 
 .about {
   text-align: center; }
