@@ -63,8 +63,15 @@ header {
     }
     .menu-options {
         grid-column: 2/3;
-        display: none;
+         // display: none;
     }
+
+    @media (max-width: 1000px){
+      .menu-options {
+        display: none;
+      }
+    }
+
     .change .bar1 {
         -webkit-transform: rotate(-45deg) translate(-3px, 5px) ;
         transform: rotate(-45deg) translate(-4px, 5px) ;
@@ -87,21 +94,23 @@ header {
     display: block;
 }
 
-@keyframes slideInDown {
-    from {
-      -webkit-transform: translate3d(0, -100%, 0);
-      transform: translate3d(0, -100%, 0);
-      visibility: visible;
-    }
-  
-    to {
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
+@media (min-width: 1000px){
+  #menu-btn {
+    display: none;
+  }
+  header h1 {
+    padding-bottom: 4px;
+  }
+  .menu-options {
+    display: block;
+    ul {
+      display: flex;
+      width: 1000px;
+      justify-content: center;
+      margin-top: 5px;
+      li {
+        padding: 0 10px;
+      }
     }
   }
-  
-  .slideInDown {
-    -webkit-animation-name: slideInDown;
-    animation-name: slideInDown;
-  }
-  
+}
