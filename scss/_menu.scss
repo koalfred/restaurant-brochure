@@ -7,7 +7,6 @@ $font-family-3: 'Amiko', sans-serif;
 .menu-page, .reservations-page{
     body {
         background-color: $first-color;
-        padding-top: 90px;
     }
 
     header {
@@ -24,7 +23,7 @@ $font-family-3: 'Amiko', sans-serif;
         background-color: $second-color;
         color: $first-color;
         width: 75%;
-        margin: 0 auto;
+        margin: 20px auto;
         padding: 10px;
         border-radius: 20px;
         animation: fadeIn ease 2s, mymove 5s infinite;;
