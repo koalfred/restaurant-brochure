@@ -450,7 +450,7 @@ footer {
   .reservations-page .name, .menu-page .name {
     width: 50%; } }
 @media (min-width: 900px) {
-  .reservations-page form, .menu-page form {
-    line-height: 48px; } }
+  .reservations-page .wrapper, .menu-page .wrapper {
+    padding-top: 90px; } }
 
 /*# sourceMappingURL=styles.css.map */
