@@ -31,9 +31,19 @@ $font-family-3: 'Amiko', sans-serif;
         -moz-animation: fadeIn ease 2s;
         -o-animation: fadeIn ease 2s;
         -ms-animation: fadeIn ease 2s;
-
+        
         h1 {
-            padding-top: 90px;
+            padding-top: 100px;
+            padding-bottom: 24px;
+        }
+
+        p {
+            padding: 15px;
+        }
+
+        img {
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
     }
 
@@ -80,19 +90,32 @@ $font-family-3: 'Amiko', sans-serif;
     }
 
     @media (min-width: 600px) {
-        img {
-            width: 60%;
-        }
+        .menu-page, .reservations-page {
+            .wrapper {
+                width: 70%;
+                padding: 30px;
 
-        .wrapper {
-            width: 70%;
-            padding: 30px;
-        }
+                h1 {
+                    padding-top: 90px;
+                }
 
-        
+                img {
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+
+                }
+            }
+                       
+        }
     }
-
+  
     @media (min-width: 900px) {
+        .menu-page, .reservations-page {
+            .wrapper {
+                
+            }
+        }
+        
         img {
             width: 32.5%;
             margin: 0 auto;

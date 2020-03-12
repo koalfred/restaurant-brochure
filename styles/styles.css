@@ -264,7 +264,13 @@ footer {
   -o-animation: fadeIn ease 2s;
   -ms-animation: fadeIn ease 2s; }
   .menu-page .wrapper h1, .reservations-page .wrapper h1 {
-    padding-top: 90px; }
+    padding-top: 100px;
+    padding-bottom: 24px; }
+  .menu-page .wrapper p, .reservations-page .wrapper p {
+    padding: 15px; }
+  .menu-page .wrapper img, .reservations-page .wrapper img {
+    padding-top: 20px;
+    padding-bottom: 20px; }
 .menu-page ul, .reservations-page ul {
   padding: 0; }
 .menu-page li, .reservations-page li {
@@ -292,11 +298,14 @@ footer {
 .menu-page .wrapper li, .reservations-page .wrapper li {
   list-style: none; }
 @media (min-width: 600px) {
-  .menu-page img, .reservations-page img {
-    width: 60%; }
-  .menu-page .wrapper, .reservations-page .wrapper {
+  .menu-page .menu-page .wrapper, .menu-page .reservations-page .wrapper, .reservations-page .menu-page .wrapper, .reservations-page .reservations-page .wrapper {
     width: 70%;
-    padding: 30px; } }
+    padding: 30px; }
+    .menu-page .menu-page .wrapper h1, .menu-page .reservations-page .wrapper h1, .reservations-page .menu-page .wrapper h1, .reservations-page .reservations-page .wrapper h1 {
+      padding-top: 90px; }
+    .menu-page .menu-page .wrapper img, .menu-page .reservations-page .wrapper img, .reservations-page .menu-page .wrapper img, .reservations-page .reservations-page .wrapper img {
+      padding-top: 10px;
+      padding-bottom: 10px; } }
 @media (min-width: 900px) {
   .menu-page img, .reservations-page img {
     width: 32.5%;
@@ -379,10 +388,10 @@ footer {
 .reservations-page form, .menu-page form {
   background-color: white;
   color: #19559F;
-  width: 60%;
+  width: 100%;
   display: block;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
   border-radius: 20px;
   font-family: "Amiko", sans-serif;
   line-height: 40px;
@@ -392,7 +401,8 @@ footer {
   -o-animation: fadeIn ease 2s;
   -ms-animation: fadeIn ease 2s; }
   .reservations-page form h1, .menu-page form h1 {
-    padding-top: 90px; }
+    padding-top: 90px;
+    padding-bottom: 20px; }
 .reservations-page ul, .menu-page ul {
   padding: 0; }
 @keyframes fadeIn {
@@ -422,16 +432,14 @@ footer {
   width: 80%; }
 @media (min-width: 600px) {
   .reservations-page form, .menu-page form {
-    width: 70%;
-    padding: 30px;
-    line-height: 40px; }
+    line-height: 40px;
+    padding: 10px; }
+    .reservations-page form .telephone, .menu-page form .telephone {
+      margin-left: 1%; }
   .reservations-page .name, .menu-page .name {
     width: 50%; } }
 @media (min-width: 900px) {
   .reservations-page form, .menu-page form {
-    width: 50%;
-    line-height: 48px; }
-  .reservations-page .name, .menu-page .name {
-    width: 35%; } }
+    line-height: 48px; } }
 
 /*# sourceMappingURL=styles.css.map */

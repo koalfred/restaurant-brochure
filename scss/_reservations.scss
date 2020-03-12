@@ -16,10 +16,10 @@
     form {
         background-color: $second-color;
         color: $first-color;
-        width: 60%;
+        width: 100%;
         display: block;
         margin: 0 auto;
-        padding: 20px;
+        padding: 10px;
         border-radius: 20px;
         font-family: $font-family-3;
         line-height: 40px;
@@ -31,7 +31,9 @@
 
         h1 {
             padding-top: 90px;
+            padding-bottom: 20px;
         }
+
     }
 
     ul {
@@ -82,9 +84,12 @@
 
     @media (min-width: 600px) {
         form {
-            width: 70%;
-            padding: 30px;
             line-height: 40px;
+            padding: 10px;
+
+            .telephone {
+                margin-left: 1%;
+            }
         }
 
         .name {
@@ -94,12 +99,9 @@
 
     @media (min-width: 900px) {
         form {
-            width: 50%;
             line-height: 48px;
         }
 
-        .name {
-            width: 35%;
-        }
+        
     }
 }
