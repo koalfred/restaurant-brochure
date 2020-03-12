@@ -89,6 +89,9 @@ header {
   #menu-btn {
     display: none; }
 
+  header h1 {
+    padding-bottom: 4px; }
+
   .menu-options {
     display: block; }
     .menu-options ul {
@@ -251,6 +254,9 @@ footer {
     display: flex; }
   .homepage .menu-box:not(:last-child) {
     margin-right: 10px; } }
+@media (min-width: 1000px) {
+  .homepage .wrapper {
+    padding-top: 135px; } }
 
 .menu-page body, .reservations-page body {
   background-color: #19559F; }
