@@ -133,12 +133,18 @@ footer {
     font-style: normal;
     font-family: "Alegreya Sans", sans-serif;
     font-weight: 500; }
+  footer .s-media-icons {
+    display: flex;
+    justify-content: center; }
+    footer .s-media-icons a {
+      display: block; }
   @media (min-width: 700px) {
     footer {
       display: flex;
       justify-content: space-around; }
       footer .site-map {
-        display: block; }
+        display: block;
+        margin-top: 0; }
       footer .site-map h1 {
         text-align: center;
         padding-bottom: 20px; } }
@@ -263,6 +269,7 @@ footer {
   -moz-animation: fadeIn ease 2s;
   -o-animation: fadeIn ease 2s;
   -ms-animation: fadeIn ease 2s; }
+<<<<<<< HEAD
   .menu-page .wrapper h1, .reservations-page .wrapper h1 {
     padding-top: 100px;
     padding-bottom: 24px; }
@@ -271,6 +278,8 @@ footer {
   .menu-page .wrapper img, .reservations-page .wrapper img {
     padding-top: 20px;
     padding-bottom: 20px; }
+=======
+>>>>>>> 3ebbfdd6431ed69d8d2652d571d43f9bcbbbe54b
 .menu-page ul, .reservations-page ul {
   padding: 0; }
 .menu-page li, .reservations-page li {
@@ -336,6 +345,8 @@ footer {
     height: 100%; }
     .about .banner img {
       width: 100%; }
+    .about .banner h1 {
+      margin: 100px; }
   .about h1, .about h3 {
     font-family: "Montserrat", sans-serif; }
   .about h2 {
@@ -352,12 +363,19 @@ footer {
       margin-bottom: 50px; }
   .about .mission {
     margin-bottom: 50px; }
+    .about .mission h3 {
+      margin: 50px; }
   .about .welcome p {
     margin-bottom: 20px; }
   .about .staff {
     margin-bottom: 50px; }
     .about .staff p {
       padding-top: 20px; }
+  .about .social {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px; }
   @media (min-width: 500px) {
     .about .row-1, .about .row-2 {
       display: flex; }
@@ -400,9 +418,12 @@ footer {
   -moz-animation: fadeIn ease 2s;
   -o-animation: fadeIn ease 2s;
   -ms-animation: fadeIn ease 2s; }
+<<<<<<< HEAD
   .reservations-page form h1, .menu-page form h1 {
     padding-top: 90px;
     padding-bottom: 20px; }
+=======
+>>>>>>> 3ebbfdd6431ed69d8d2652d571d43f9bcbbbe54b
 .reservations-page ul, .menu-page ul {
   padding: 0; }
 @keyframes fadeIn {

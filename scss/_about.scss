@@ -11,6 +11,10 @@
         img{
             width: 100%;
         }
+
+        h1 {
+            margin: 100px;
+        }
     }
 
     h1, h3 {
@@ -40,6 +44,9 @@
 
     .mission {
         margin-bottom: 50px;
+        h3 {
+            margin: 50px;
+        }
     }
 
     .welcome p {
@@ -51,6 +58,13 @@
         p {
             padding-top: 20px;
         }
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     @media (min-width: 500px) {
