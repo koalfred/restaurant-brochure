@@ -100,6 +100,7 @@ $font-family-3: 'Amiko', sans-serif;
                 }
 
                 img {
+                    width: 60%;
                     padding-top: 10px;
                     padding-bottom: 10px;
 
@@ -124,7 +125,7 @@ $font-family-3: 'Amiko', sans-serif;
         }
 
         .wrapper {
-            width: 50%;
+            width: 60%;
             margin: 0 auto;
         }
         .desserts {
@@ -132,12 +133,6 @@ $font-family-3: 'Amiko', sans-serif;
             column-count: 2;
         }
         
-    }
-
-    @media (min-width: 1000px) {
-        .desserts {
-        column-count: 3;
-        }
     }
 
     @media (min-width: 1700px) {
