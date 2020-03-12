@@ -269,7 +269,6 @@ footer {
   -moz-animation: fadeIn ease 2s;
   -o-animation: fadeIn ease 2s;
   -ms-animation: fadeIn ease 2s; }
-<<<<<<< HEAD
   .menu-page .wrapper h1, .reservations-page .wrapper h1 {
     padding-top: 100px;
     padding-bottom: 24px; }
@@ -278,8 +277,6 @@ footer {
   .menu-page .wrapper img, .reservations-page .wrapper img {
     padding-top: 20px;
     padding-bottom: 20px; }
-=======
->>>>>>> 3ebbfdd6431ed69d8d2652d571d43f9bcbbbe54b
 .menu-page ul, .reservations-page ul {
   padding: 0; }
 .menu-page li, .reservations-page li {
@@ -402,14 +399,15 @@ footer {
   display: flex;
   justify-content: center;
   font-size: 16px;
-  padding: 10px 30px; }
+  padding: 10px 30px;
+  margin-bottom: 30px; }
 .reservations-page form, .menu-page form {
   background-color: white;
   color: #19559F;
   width: 100%;
   display: block;
   margin: 0 auto;
-  padding: 10px;
+  padding-top: 20px;
   border-radius: 20px;
   font-family: "Amiko", sans-serif;
   line-height: 40px;
@@ -418,14 +416,9 @@ footer {
   -moz-animation: fadeIn ease 2s;
   -o-animation: fadeIn ease 2s;
   -ms-animation: fadeIn ease 2s; }
-<<<<<<< HEAD
-  .reservations-page form h1, .menu-page form h1 {
-    padding-top: 90px;
-    padding-bottom: 20px; }
-=======
->>>>>>> 3ebbfdd6431ed69d8d2652d571d43f9bcbbbe54b
-.reservations-page ul, .menu-page ul {
-  padding: 0; }
+.reservations-page ul, .reservations-page li, .menu-page ul, .menu-page li {
+  padding: 0;
+  margin: 0 auto; }
 @keyframes fadeIn {
   0% {
     opacity: 0; }
