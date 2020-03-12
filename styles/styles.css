@@ -313,6 +313,7 @@ footer {
     .menu-page .menu-page .wrapper h1, .menu-page .reservations-page .wrapper h1, .reservations-page .menu-page .wrapper h1, .reservations-page .reservations-page .wrapper h1 {
       padding-top: 90px; }
     .menu-page .menu-page .wrapper img, .menu-page .reservations-page .wrapper img, .reservations-page .menu-page .wrapper img, .reservations-page .reservations-page .wrapper img {
+      width: 60%;
       padding-top: 10px;
       padding-bottom: 10px; } }
 @media (min-width: 900px) {
@@ -322,14 +323,11 @@ footer {
     display: inline-flex;
     flex: 1; }
   .menu-page .wrapper, .reservations-page .wrapper {
-    width: 50%;
+    width: 60%;
     margin: 0 auto; }
   .menu-page .desserts, .reservations-page .desserts {
     padding-top: 20px;
     column-count: 2; } }
-@media (min-width: 1000px) {
-  .menu-page .desserts, .reservations-page .desserts {
-    column-count: 3; } }
 @media (min-width: 1700px) {
   .menu-page img, .reservations-page img {
     width: 33%; } }
@@ -450,9 +448,8 @@ footer {
 @media (min-width: 600px) {
   .reservations-page form, .menu-page form {
     line-height: 40px;
-    padding: 10px; }
-    .reservations-page form .telephone, .menu-page form .telephone {
-      margin-left: 1%; }
+    padding: 10px;
+    margin: 0 auto; }
   .reservations-page .name, .menu-page .name {
     width: 50%; } }
 @media (min-width: 900px) {
