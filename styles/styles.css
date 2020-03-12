@@ -35,6 +35,9 @@ header {
   header h1 {
     grid-column: 2/3;
     padding: 5px 0 15px 0; }
+    header h1 a {
+      text-decoration: none;
+      color: #19559F; }
   header ul {
     list-style: none;
     text-decoration: none;
@@ -45,7 +48,7 @@ header {
       display: block; }
     header ul li:hover {
       transform: translateY(-2px); }
-  header a {
+  header nav a, header .lang-select a {
     text-decoration: none;
     color: #19559F;
     font-family: "Alegreya Sans", sans-serif;

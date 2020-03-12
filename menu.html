@@ -10,12 +10,23 @@
 </head>
 <body>
     <header>
-        <h1>Skål</h1>
+        <div class="container">
+        <h1><a href="index.html">SKÅL</a></h1>
+        
+        
+        <div id="menu-btn" class="menu-btn" onclick="myFunction(this)">
+            <div class="menu-bar bar1"></div>
+            <div class="menu-bar bar2"></div>
+            <div class="menu-bar bar3"></div>
+        </div><!-- end menu-btn -->
+        
+        <div class="menu-options">
         <div class="lang-select">
-        <a href="#0">EN</a>
-        <a href="#0">FR</a>
-        <a href="#0">SE</a>
+        <a href="#0">En</a>
+        <a href="#0">Fr</a>
+        <a href="#0">Sc</a>
         </div><!-- end of language selection -->
+        
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -25,10 +36,8 @@
                     <li><a href="#0">Events</a></li>
                 </ul>
             </nav>
-        
-        <div class="banner">
-            <img src="" alt="People raising a glass over a dinner table">
-        </div><!-- end of banner -->
+        </div><!-- end menu options -->
+        </div>
         </header>
 
     <div class="wrapper">
@@ -220,5 +229,40 @@
     </ul>
 </div>
 </div>
+
+<footer>
+    <div class="box hours">
+        <h3>Hours:</h3>
+        <p>Mon-Fri: 11am-9pm <br>
+        Sat: 11am-10pm <br>
+        Sun: 10am-8pm</p>
+    </div><!-- end of hours -->
+    <div class="box address">
+        <h3>Address</h3>
+        <address>1234 Swedish Street <br>
+            Vancouver, BC <br>
+            V1M 3V6
+        </address>
+    </div><!--end of address-->
+    <div class="box site-map">
+        <h1>SKÅL</h1>
+        <a href="#0">About</a>
+        <a href="#0">Menus</a>
+        <a href="#0">Reservations</a>
+        <a href="#0">Events</a>
+    </div><!--end of site-map-->
+    <div class="box contact">
+        <h3>Contact us</h3>
+        <p>phone: 604-123-4567 <br>
+        email: <a href="#0">skal@info.com</a></p>
+    </div><!--end of contact-->
+    <div class="box social-media">
+        <h3>Connect</h3>
+        <a href="#0"><img src="" alt="Facebook logo"></a>
+        <a href="#0"><img src="" alt="Instagram logo"></a>
+    </div><!--social media-->
+</footer><!-- end footer -->
+
+<script src="scripts/scripts.js"></script>
 </body>
 </html>

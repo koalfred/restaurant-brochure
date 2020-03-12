@@ -19,6 +19,10 @@ header {
     h1 {
         grid-column: 2/3;
         padding: 5px 0 15px 0;
+        a {
+          text-decoration: none;
+          color: $main-bg;
+        }
     }
     ul {
         list-style: none;
@@ -34,7 +38,7 @@ header {
         }
     }
     
-    a {
+    nav a, .lang-select a {
         text-decoration: none;
         color: $main-bg;
         font-family: $heading;
