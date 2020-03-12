@@ -144,7 +144,7 @@ footer {
       justify-content: space-around; }
       footer .site-map {
         display: block;
-        margin-top: 0; }
+        margin-top: 0px; }
       footer .site-map h1 {
         text-align: center;
         padding-bottom: 20px; } }
@@ -340,12 +340,15 @@ footer {
     height: 100%; }
     .about .banner img {
       width: 100%; }
-    .about .banner h1 {
-      margin: 100px; }
   .about h1, .about h3 {
     font-family: "Montserrat", sans-serif; }
   .about h2 {
-    font-family: "Alegreya Sans", sans-serif; }
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    color: white;
+    background-color: #19559F;
+    padding-top: 25px;
+    height: 80px; }
   .about p {
     font-family: "Amiko", sans-serif; }
   .about main {
@@ -355,11 +358,15 @@ footer {
   .about .about {
     margin-bottom: 50px; }
     .about .about h1 {
-      margin-bottom: 50px; }
+      margin-top: 100px;
+      padding-bottom: 20px; }
   .about .mission {
     margin-bottom: 50px; }
     .about .mission h3 {
       margin: 50px; }
+  .about .welcome {
+    margin-bottom: 20%;
+    margin-top: 20px; }
   .about .welcome p {
     margin-bottom: 20px; }
   .about .staff {
@@ -375,10 +382,23 @@ footer {
     .about .row-1, .about .row-2 {
       display: flex; }
     .about .row-1 article, .about .row-2 article {
-      margin: 10px; } }
+      margin: 10px; }
+    .about .banner {
+      height: 380px;
+      background-image: url("../images/swedish-chef-2.jpg");
+      background-attachment: fixed;
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: 100% auto; }
+      .about .banner img {
+        display: none; } }
+  @media (min-width: 950px) {
+    .about .banner {
+      height: 500px; } }
   @media (min-width: 1000px) {
     .about .staff {
-      display: flex; }
+      display: flex;
+      margin-bottom: 100px; }
     .about .row-1 article, .about .row-2 article {
       padding-left: 10px;
       padding-right: 10px; }
