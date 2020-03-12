@@ -1,6 +1,6 @@
 .about {
     text-align: center;
-    
+
     .banner{
         position: relative;
         max-width: 1200px;
@@ -88,7 +88,6 @@
                 display: none;
             }
             height: 380px;
-            //Scroll over image
             background-image: url("../images/swedish-chef-2.jpg");
             background-attachment: fixed;
             background-position: top;
@@ -97,13 +96,11 @@
         }
     }
 
-    @media (min-width: 950px){
+    @media (min-width: 950px) {
         .banner {
             height: 500px;
         }
-    }
 
-    @media (min-width: 1000px) {
         .staff {
             display: flex;
             margin-bottom: 100px;
@@ -119,6 +116,13 @@
         h3 {
             margin: 0;
             margin-top: 10px;
+        }
+    }
+
+    @media (min-width: 1000px) {
+        .wrapper {
+            padding-top: 135px;
+            padding-bottom: 80px;
         }
     }
 }
