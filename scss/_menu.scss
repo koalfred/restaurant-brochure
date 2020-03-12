@@ -23,7 +23,7 @@ $font-family-3: 'Amiko', sans-serif;
         background-color: $second-color;
         color: $first-color;
         width: 75%;
-        margin: 20px auto;
+        margin: 0 auto;
         padding: 10px;
         border-radius: 20px;
         animation: fadeIn ease 2s, mymove 5s infinite;;
@@ -31,6 +31,10 @@ $font-family-3: 'Amiko', sans-serif;
         -moz-animation: fadeIn ease 2s;
         -o-animation: fadeIn ease 2s;
         -ms-animation: fadeIn ease 2s;
+
+        h1 {
+            padding-top: 90px;
+        }
     }
 
     ul {

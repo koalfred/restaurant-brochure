@@ -255,7 +255,7 @@ footer {
   background-color: white;
   color: #19559F;
   width: 75%;
-  margin: 20px auto;
+  margin: 0 auto;
   padding: 10px;
   border-radius: 20px;
   animation: fadeIn ease 2s, mymove 5s infinite;
@@ -263,6 +263,8 @@ footer {
   -moz-animation: fadeIn ease 2s;
   -o-animation: fadeIn ease 2s;
   -ms-animation: fadeIn ease 2s; }
+  .menu-page .wrapper h1, .reservations-page .wrapper h1 {
+    padding-top: 90px; }
 .menu-page ul, .reservations-page ul {
   padding: 0; }
 .menu-page li, .reservations-page li {
@@ -389,6 +391,8 @@ footer {
   -moz-animation: fadeIn ease 2s;
   -o-animation: fadeIn ease 2s;
   -ms-animation: fadeIn ease 2s; }
+  .reservations-page form h1, .menu-page form h1 {
+    padding-top: 90px; }
 .reservations-page ul, .menu-page ul {
   padding: 0; }
 @keyframes fadeIn {
