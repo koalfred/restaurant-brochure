@@ -1,4 +1,12 @@
 .reservations-page, .menu-page{
+    a {
+        font-weight: normal;
+    }
+        
+    ul {
+        padding-top: 3px;
+    }
+
     .submit {
         font-family: $font-family-3;
         border: none;
@@ -45,7 +53,7 @@
     } 
 
 
-    header, h1 {
+    .wrapper h1 {
         font-family: $font-family-1;
     }
 

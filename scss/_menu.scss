@@ -12,13 +12,16 @@ $font-family-3: 'Amiko', sans-serif;
 
     header {
         font-family: $font-family-1;
-        width: 100%;
     }
 
     img {
         width: 90%;
         margin: 0 auto;
         display: block;
+    }
+
+    h1 {
+        font-family: $logo;
     }
 
     .wrapper {
