@@ -38,7 +38,7 @@ $font-family-3: 'Amiko', sans-serif;
         }
 
         p {
-            padding: 15px;
+            padding-bottom: 25px;
         }
 
         img {
@@ -121,10 +121,16 @@ $font-family-3: 'Amiko', sans-serif;
         
         }
 
+        .meal {
+            margin: 0 auto;
+            
+        }
+
         .wrapper {
             width: 60%;
             padding-top: 90px;
             margin: 0 auto;
+
         }
         
         .desserts {

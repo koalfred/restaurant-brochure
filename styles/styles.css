@@ -283,7 +283,7 @@ footer {
     padding-top: 100px;
     padding-bottom: 24px; }
   .menu-page .wrapper p, .reservations-page .wrapper p {
-    padding: 15px; }
+    padding-bottom: 25px; }
   .menu-page .wrapper img, .reservations-page .wrapper img {
     padding-top: 20px;
     padding-bottom: 20px; }
@@ -332,6 +332,8 @@ footer {
     margin: 0 auto;
     display: inline-flex;
     flex: 1; }
+  .menu-page .meal, .reservations-page .meal {
+    margin: 0 auto; }
   .menu-page .wrapper, .reservations-page .wrapper {
     width: 60%;
     padding-top: 90px;
