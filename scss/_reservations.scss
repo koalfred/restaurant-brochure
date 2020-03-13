@@ -30,11 +30,14 @@
         -o-animation: fadeIn ease 2s;
         -ms-animation: fadeIn ease 2s;
     }
-
-    ul, li {
+    
+    .wrapper {
+        ul, li {
         padding: 0;
         margin: 0 auto;
-    }
+        }
+    } 
+       
 
     @keyframes fadeIn {
         0% {opacity: 0;}

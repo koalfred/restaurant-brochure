@@ -452,7 +452,7 @@ footer {
   -moz-animation: fadeIn ease 2s;
   -o-animation: fadeIn ease 2s;
   -ms-animation: fadeIn ease 2s; }
-.reservations-page ul, .reservations-page li, .menu-page ul, .menu-page li {
+.reservations-page .wrapper ul, .reservations-page .wrapper li, .menu-page .wrapper ul, .menu-page .wrapper li {
   padding: 0;
   margin: 0 auto; }
 @keyframes fadeIn {
