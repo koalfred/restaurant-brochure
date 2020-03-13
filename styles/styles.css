@@ -262,7 +262,8 @@ footer {
 .menu-page body, .reservations-page body {
   background-color: #19559F; }
 .menu-page header, .reservations-page header {
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  width: 100%; }
 .menu-page img, .reservations-page img {
   width: 90%;
   margin: 0 auto;
@@ -328,12 +329,13 @@ footer {
     flex: 1; } }
 @media (min-width: 900px) {
   .menu-page img, .reservations-page img {
-    width: 32.5%;
-    margin: 0 auto;
+    width: 28%;
     display: inline-flex;
-    flex: 1; }
+    justify-content: space-evenly;
+    margin-left: 3.73%; }
   .menu-page .meal, .reservations-page .meal {
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 0; }
   .menu-page .wrapper, .reservations-page .wrapper {
     width: 60%;
     padding-top: 90px;
@@ -450,7 +452,7 @@ footer {
   -moz-animation: fadeIn ease 2s;
   -o-animation: fadeIn ease 2s;
   -ms-animation: fadeIn ease 2s; }
-.reservations-page ul, .reservations-page li, .menu-page ul, .menu-page li {
+.reservations-page .wrapper ul, .reservations-page .wrapper li, .menu-page .wrapper ul, .menu-page .wrapper li {
   padding: 0;
   margin: 0 auto; }
 @keyframes fadeIn {

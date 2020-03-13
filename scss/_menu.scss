@@ -5,12 +5,14 @@ $font-family-2: 'Alegreya Sans', sans-serif;
 $font-family-3: 'Amiko', sans-serif;
 
 .menu-page, .reservations-page{
+
     body {
         background-color: $first-color;
     }
 
     header {
         font-family: $font-family-1;
+        width: 100%;
     }
 
     img {
@@ -58,6 +60,7 @@ $font-family-3: 'Amiko', sans-serif;
     li p {
         font-size: 14px;
     }
+
 
     @keyframes fadeIn {
         0% {opacity: 0;}
@@ -112,18 +115,17 @@ $font-family-3: 'Amiko', sans-serif;
     }
   
     @media (min-width: 900px) {
-          
+     
         img {
-            width: 32.5%;
-            margin: 0 auto;
+            width: 28%;
             display: inline-flex;
-            flex: 1;
-        
+            justify-content: space-evenly;
+            margin-left: 3.73%;
         }
 
         .meal {
             margin: 0 auto;
-            
+            padding: 0;
         }
 
         .wrapper {
