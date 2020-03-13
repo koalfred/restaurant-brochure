@@ -267,8 +267,6 @@ footer {
   width: 90%;
   margin: 0 auto;
   display: block; }
-.menu-page h1, .reservations-page h1 {
-  font-family: "Montserrat", sans-serif; }
 .menu-page .wrapper, .reservations-page .wrapper {
   background-color: white;
   color: #19559F;
@@ -425,8 +423,6 @@ footer {
       padding-top: 135px;
       padding-bottom: 80px; } }
 
-.reservations-page a, .menu-page a {
-  font-weight: normal; }
 .reservations-page ul, .menu-page ul {
   padding-top: 3px; }
 .reservations-page .submit, .menu-page .submit {
