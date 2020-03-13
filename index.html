@@ -49,10 +49,44 @@
 
 <main>
 <section class="news">
-    <h2>What's new?</h2>
-    <img src="images/news-banner.jpg" alt="A fancy candlelit dinner table">
-    <p>Skål is celebrating it's 5th year since launch and we'd like to celebrate this milestone by having you join us on a night of live music, activities, and delicious food.</p>
-    <a href="#0">more details</a>
+
+        <h2>What's new?</h2>
+
+<div class="slideshow-container">
+
+        <div class="myslides fade">
+        <img src="images/news-banner.jpg" alt="A fancy candlelit dinner table">
+        <p>Skål is celebrating it's 5th year since launch and we'd like to celebrate this milestone by having you join us on a night of live music, activities, and delicious food.</p>
+        <a class="details" href="#0">more details</a>
+    </div>
+
+    <div class="myslides fade">
+        <img src="images/music-event-banner.jpg" alt="A drum set in a darkly lit venue">
+        <p>This week's live music session is one you do not want to miss! Eat, drink, dance - have fun!</p>
+        <a class="details" href="#0">more details</a>
+    </div>
+
+    <div class="myslides fade">
+        <img src="images/outdoor-party.jpg" alt="An outdoor party with hanging lights">
+        <p>Summer is coming up, and what better way to celebrate than with an outdoor BBQ?</p>
+        <a class="details" href="#0">more details</a>
+    </div>
+
+<!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div><!-- end of slideshow-container -->
+
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
 </section><!-- end of news/events -->
 
 <section class="menu-row">
@@ -93,7 +127,7 @@
         Sun: 10am-8pm</p>
     </div><!-- end of hours -->
     <div class="box address">
-        <h3>Address</h3>
+        <h3>Address:</h3>
         <address>1234 Swedish Street <br>
             Vancouver, BC <br>
             V1M 3V6
@@ -107,16 +141,18 @@
         <a href="#0">Events</a>
     </div><!--end of site-map-->
     <div class="box contact">
-        <h3>Contact us</h3>
+        <h3>Contact us:</h3>
         <p>phone: 604-123-4567 <br>
         email: <a href="#0">skal@info.com</a></p>
     </div><!--end of contact-->
     <div class="box social-media">
-        <h3>Connect</h3>
-        <a href="#0"><img src="" alt="Facebook logo"></a>
-        <a href="#0"><img src="" alt="Instagram logo"></a>
+        <h3>Connect:</h3>
+        <div class="s-media-icons">
+            <a href="#0"><img src="./images/facebook2.svg" alt="Facebook"></a>
+            <a href="#0"><img src="./images/instagram.svg" alt="Instagram"></a>
+        </div>
     </div><!--social media-->
-</footer><!-- end footer -->
+</footer>
 
 <script src="scripts/scripts.js"></script>
 </body>

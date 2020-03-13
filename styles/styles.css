@@ -155,109 +155,179 @@ footer {
         text-align: center;
         padding-bottom: 20px; } }
 
-.homepage main {
-  padding: 20px 10px;
-  max-width: 1000px;
-  margin: auto; }
-.homepage .banner {
-  position: relative;
-  max-width: 1200px;
-  margin: auto;
-  padding-top: 89px;
-  z-index: 1;
-  height: 100%; }
-  .homepage .banner img {
-    width: 100%; }
-  .homepage .banner p {
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.849);
-    padding: 10px;
-    min-width: 250px;
-    max-width: 800px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #19559F;
-    text-align: center;
-    margin: auto;
-    z-index: 2; }
-@media (min-width: 700px) {
-  .homepage .banner {
-    height: 380px;
-    background-image: url("../images/home-banner.jpg");
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 100% auto; }
-    .homepage .banner img {
-      display: none; } }
-@media (min-width: 950px) {
-  .homepage .banner {
-    height: 500px; } }
-.homepage main h2 {
-  font-family: "Alegreya Sans", sans-serif;
-  font-weight: 400;
-  color: white;
-  background-color: #19559F;
-  padding-top: 25px;
-  height: 80px; }
-.homepage main p {
-  font-family: "Amiko", sans-serif;
-  line-height: 1.5em; }
-.homepage .news {
-  text-align: center;
-  font-size: 16px;
-  margin: auto; }
-  .homepage .news p {
-    margin: 10px auto 25px auto;
-    max-width: 450px; }
-  .homepage .news a {
-    text-decoration: none;
-    font-family: "Amiko", sans-serif;
-    color: white;
-    padding: 8px 15px;
-    background-color: #19559F; }
-  .homepage .news img {
-    padding: 10px 0;
-    width: 100%;
-    max-width: 400px;
+.homepage {
+  /* Next & previous buttons */
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
+  /* The dots/bullets/indicators */
+  /* Fading animation */ }
+  .homepage main {
+    padding: 20px 10px;
+    max-width: 1000px;
     margin: auto; }
-.homepage .menu-row {
-  margin-top: 30px;
-  text-align: center; }
-  .homepage .menu-row .menu-box {
-    position: relative; }
-  .homepage .menu-row img {
-    margin-top: 10px;
-    width: 100%;
-    z-index: 2; }
-  .homepage .menu-row .menu h2 {
+  .homepage .banner {
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 89px;
+    z-index: 1;
+    height: 100%; }
+    .homepage .banner img {
+      width: 100%; }
+    .homepage .banner p {
+      position: absolute;
+      top: 65%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(255, 255, 255, 0.849);
+      padding: 10px;
+      min-width: 250px;
+      max-width: 800px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #19559F;
+      text-align: center;
+      margin: auto;
+      z-index: 2; }
+  @media (min-width: 700px) {
+    .homepage .banner {
+      height: 380px;
+      background-image: url("../images/home-banner.jpg");
+      background-attachment: fixed;
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: 100% auto; }
+      .homepage .banner img {
+        display: none; } }
+  @media (min-width: 950px) {
+    .homepage .banner {
+      height: 500px; } }
+  .homepage main h2 {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    color: white;
+    background-color: #19559F;
+    padding-top: 25px;
+    height: 80px; }
+  .homepage main p {
+    font-family: "Amiko", sans-serif;
+    line-height: 1.5em; }
+  .homepage .news {
+    text-align: center;
+    font-size: 16px;
+    margin: auto; }
+    .homepage .news p {
+      margin: 10px auto 25px auto;
+      max-width: 450px; }
+    .homepage .news a {
+      text-decoration: none;
+      font-family: "Amiko", sans-serif;
+      color: white;
+      padding: 8px 15px;
+      background-color: #19559F; }
+    .homepage .news img {
+      padding: 10px 0;
+      width: 100%;
+      max-width: 400px;
+      margin: auto; }
+    .homepage .news .details:hover {
+      transition: 0.5s;
+      background-color: #4569df; }
+  .homepage .slideshow-container {
+    padding-top: 30px;
+    max-width: 100%;
+    height: 600px;
+    position: relative;
+    margin: auto; }
+  .homepage .myslides {
+    display: none; }
+  .homepage .prev, .homepage .next {
+    cursor: pointer;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 5;
-    background-color: rgba(0, 0, 0, 0.425);
-    width: 100%;
-    height: 100px;
-    font-size: 25px;
-    padding-top: 30px; }
-@media (min-width: 580px) {
-  .homepage .banner p {
-    top: 55%;
-    left: 50%; } }
-@media (min-width: 650px) {
-  .homepage .menu-flex {
-    display: flex; }
-  .homepage .menu-box:not(:last-child) {
-    margin-right: 10px; } }
-@media (min-width: 1000px) {
-  .homepage .wrapper {
-    padding-top: 135px;
-    padding-bottom: 80px; } }
+    top: 40%;
+    left: 22%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none; }
+  .homepage .next {
+    left: 84%;
+    border-radius: 3px 0 0 3px; }
+  .homepage .prev {
+    left: 7%; }
+  @media (min-width: 1000px) {
+    .homepage .next {
+      left: 74%; }
+    .homepage .prev {
+      left: 22%; } }
+  .homepage .prev:hover, .homepage .next:hover {
+    background-color: rgba(0, 0, 0, 0.8); }
+  .homepage .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease; }
+  .homepage .active, .homepage .dot:hover {
+    background-color: #717171; }
+  .homepage .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s; }
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+  .homepage .menu-row {
+    margin-top: 30px;
+    text-align: center; }
+    .homepage .menu-row .menu-box {
+      position: relative;
+      margin-top: 30px; }
+    .homepage .menu-row img {
+      margin-top: 10px;
+      width: 100%;
+      z-index: 2; }
+    .homepage .menu-row .menu h2 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 5;
+      background-color: rgba(0, 0, 0, 0.425);
+      width: 100%;
+      height: 100px;
+      font-size: 25px;
+      padding-top: 30px; }
+  @media (min-width: 580px) {
+    .homepage .banner p {
+      top: 55%;
+      left: 50%; } }
+  @media (min-width: 650px) {
+    .homepage .menu-flex {
+      display: flex; }
+    .homepage .menu-box:not(:last-child) {
+      margin-right: 10px; } }
+  @media (min-width: 1000px) {
+    .homepage .wrapper {
+      padding-top: 135px;
+      padding-bottom: 80px; } }
 
 .menu-page body, .reservations-page body {
   background-color: #19559F; }
