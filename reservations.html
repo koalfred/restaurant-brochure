@@ -45,9 +45,12 @@
         <h1>Reservations</h1>
         <p>We can't wait to see you! Fill in the form below and we'll get you started to reserving your table! Fill in the form below, and vi ses!</p>
         <ul>
+        <div class="form-entry">
         <li>Name: <input type="text" id="name" class="name" name="name"></li>
         <li>E-mail: <input type="text" id="name" class="name" name="name"></li>
         <li>Telephone: <input type="text" id="name" class="name telephone" name="name"></li>
+        </div><!-- end of form entry -->
+
         <li>Which meal are you planning to have?
             <br>
         <input type="radio" id="brunch" name="meal" value="brunch">       
@@ -60,7 +63,7 @@
         <li>
         <label for="quantity">How many people are going?</label>
         <input type="number" id="quantity" class="quantity" name="quantity" min="1" max="20">
-        <p>If you wish to reserve more seats, please contact us    <a href="#0">here.</a></p>   
+        <p class="more-seats">If you wish to reserve more seats, please contact us    <a href="#0">here.</a></p>   
         </li>
         <input type="submit" id="submit" class="submit">
         </ul>

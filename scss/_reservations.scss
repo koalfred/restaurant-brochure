@@ -26,7 +26,7 @@
         display: block;
         margin: 0 auto;
         padding-top: 20px;
-        border-radius: 20px;
+        // border-radius: 20px;
         font-family: $font-family-3;
         line-height: 40px;
         animation: fadeIn ease 2s, mymove 5s infinite;;
@@ -43,6 +43,16 @@
         }
     } 
        
+    .form-entry {
+        padding-bottom: 15px;
+        li {
+            padding: 5px 0;
+        }
+    }
+
+    .more-seats {
+        padding-top: 15px;
+    }
 
     @keyframes fadeIn {
         0% {opacity: 0;}
@@ -88,7 +98,7 @@
 
     @media (min-width: 600px) {
         form {
-            line-height: 40px;
+            line-height: 30px;
             padding: 10px;
             margin: 0 auto;
         }
@@ -105,5 +115,22 @@
                 padding-top: 60px;
             }
             
+    }
+}
+
+.reservations-page {
+    .wrapper {
+        padding-top: 100px;
+        color: black;
+    }
+    form {
+        padding-bottom: 50px;
+    }
+    footer {
+        img {
+            text-align: center;
+            margin-left: auto;
+            display: inline;
+        }
     }
 }

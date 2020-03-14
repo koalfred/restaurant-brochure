@@ -5,7 +5,11 @@ $font-family-2: 'Alegreya Sans', sans-serif;
 $font-family-3: 'Amiko', sans-serif;
 
 .menu-page, .reservations-page{
-
+    .menu-intro {
+        padding: 0 30px;
+        max-width: 800px;
+        margin: auto;
+    }
     body {
         background-color: $first-color;
     }
@@ -14,7 +18,7 @@ $font-family-3: 'Amiko', sans-serif;
         font-family: $font-family-1;
     }
 
-    img {
+    .meal img {
         width: 90%;
         margin: 0 auto;
         display: block;
@@ -22,11 +26,11 @@ $font-family-3: 'Amiko', sans-serif;
 
    .wrapper {
         background-color: $second-color;
-        color: $first-color;
+        // color: $first-color;
         width: 90%;
         margin: 0 auto;
         padding: 10px;
-        border-radius: 20px;
+        // border-radius: 20px;
         animation: fadeIn ease 2s, mymove 5s infinite;;
         -webkit-animation: fadeIn ease 2s;
         -moz-animation: fadeIn ease 2s;
@@ -42,7 +46,7 @@ $font-family-3: 'Amiko', sans-serif;
             padding-bottom: 25px;
         }
 
-        img {
+        .meal img {
             padding-top: 20px;
             padding-bottom: 20px;
         }
@@ -103,7 +107,7 @@ $font-family-3: 'Amiko', sans-serif;
             }  
         }
 
-        img {
+        .meal img {
             width: 36%;
             padding-top: 10px;
             padding-bottom: 10px;
@@ -115,7 +119,7 @@ $font-family-3: 'Amiko', sans-serif;
   
     @media (min-width: 900px) {
      
-        img {
+        .meal img {
             width: 28%;
             display: inline-flex;
             justify-content: space-evenly;
@@ -128,7 +132,7 @@ $font-family-3: 'Amiko', sans-serif;
         }
 
         .wrapper {
-            width: 60%;
+            max-width: 1200px;
             padding-top: 90px;
             margin: 0 auto;
 
@@ -139,5 +143,35 @@ $font-family-3: 'Amiko', sans-serif;
             column-count: 2;
         }
         
+    }
+}
+
+.menu-page {
+    main {
+        max-width: 1000px;
+        margin: auto;
+    }
+    h2 {
+        background-color: $first-color;
+        padding: 25px;
+        color: white;
+        font-weight: 300;
+        margin-bottom: 40px;
+    }
+    h4 {
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+    .menu-items {
+        p {
+            padding-bottom: 10px;
+        }
+    }
+    footer {
+        img {
+            text-align: center;
+            margin-left: auto;
+            display: inline;
+        }
     }
 }
