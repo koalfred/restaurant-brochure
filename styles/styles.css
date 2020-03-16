@@ -204,6 +204,21 @@ footer .s-media-icons a {
   /* The dots/bullets/indicators */
   /* Fading animation */
 }
+.homepage .wrapper {
+  animation: fadeIn ease 2s, mymove 5s infinite;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .homepage main {
   padding: 20px 10px;
   max-width: 1000px;
@@ -529,7 +544,6 @@ footer .s-media-icons a {
     margin: 0 auto;
   }
   .menu-page .desserts, .reservations-page .desserts {
-    padding-top: 20px;
     column-count: 2;
   }
 }
@@ -552,6 +566,9 @@ footer .s-media-icons a {
 .menu-page .menu-items p {
   padding-bottom: 10px;
 }
+.menu-page .desserts {
+  margin-bottom: 30px;
+}
 .menu-page footer img {
   text-align: center;
   margin-left: auto;
@@ -560,6 +577,21 @@ footer .s-media-icons a {
 
 .about {
   text-align: center;
+}
+.about .wrapper {
+  animation: fadeIn ease 2s, mymove 5s infinite;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .about .banner {
   position: relative;
@@ -595,17 +627,17 @@ footer .s-media-icons a {
   margin-bottom: 50px;
 }
 .about .about h1 {
-  margin-top: 100px;
-  padding-bottom: 20px;
+  margin-top: 60px;
+  padding-bottom: 30px;
 }
 .about .mission {
   margin-bottom: 50px;
 }
 .about .mission h3 {
-  margin: 50px;
+  margin: 50px 0 30px 0;
 }
 .about .welcome {
-  margin-bottom: 20px;
+  margin-bottom: 70px;
   margin-top: 20px;
 }
 .about .welcome p {
@@ -657,12 +689,13 @@ footer .s-media-icons a {
   .about h3 {
     margin: 0;
     margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 @media (min-width: 1000px) {
   .about .wrapper {
     padding-top: 135px;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
   }
 }
 
@@ -764,7 +797,6 @@ footer .s-media-icons a {
 }
 
 .reservations-page .wrapper {
-  padding-top: 100px;
   color: black;
 }
 .reservations-page form {

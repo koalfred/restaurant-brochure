@@ -1,6 +1,19 @@
 .about {
     text-align: center;
-
+    
+    .wrapper {
+        animation: fadeIn ease 2s, mymove 5s infinite;;
+        -webkit-animation: fadeIn ease 2s;
+        -moz-animation: fadeIn ease 2s;
+        -o-animation: fadeIn ease 2s;
+        -ms-animation: fadeIn ease 2s;
+    }
+    
+    @keyframes fadeIn {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+    } 
+        
     .banner{
         position: relative;
         max-width: 1200px;
@@ -39,20 +52,20 @@
     .about {
         margin-bottom: 50px;
         h1 {
-            margin-top: 100px;
-            padding-bottom: 20px;
+            margin-top: 60px;
+            padding-bottom: 30px;
         }
     }
 
     .mission {
         margin-bottom: 50px;
         h3 {
-            margin: 50px;
+            margin: 50px 0 30px 0;
         }
     }
 
     .welcome {
-        margin-bottom: 20px;
+        margin-bottom: 70px;
         margin-top: 20px;
     }
 
@@ -117,13 +130,14 @@
         h3 {
             margin: 0;
             margin-top: 10px;
+            margin-bottom: 10px;
         }
     }
 
     @media (min-width: 1000px) {
         .wrapper {
             padding-top: 135px;
-            padding-bottom: 80px;
+            padding-bottom: 60px;
         }
     }
 }

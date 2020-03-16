@@ -139,7 +139,6 @@ $font-family-3: 'Amiko', sans-serif;
         }
         
         .desserts {
-            padding-top: 20px;
             column-count: 2;
         }
         
@@ -166,6 +165,9 @@ $font-family-3: 'Amiko', sans-serif;
         p {
             padding-bottom: 10px;
         }
+    }
+    .desserts {
+        margin-bottom: 30px;
     }
     footer {
         img {
