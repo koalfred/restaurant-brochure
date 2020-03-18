@@ -161,6 +161,17 @@ footer {
   /* On hover, add a black background color with a little bit see-through */
   /* The dots/bullets/indicators */
   /* Fading animation */ }
+  .homepage .wrapper {
+    animation: fadeIn ease 2s, mymove 5s infinite;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s; }
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
   .homepage main {
     padding: 20px 10px;
     max-width: 1000px;
@@ -300,6 +311,9 @@ footer {
     .homepage .menu-row .menu-box {
       position: relative;
       margin-top: 30px; }
+    .homepage .menu-row .menu-box:hover {
+      transition: 0.5s;
+      transform: translateY(-5px); }
     .homepage .menu-row img {
       margin-top: 10px;
       width: 100%;
@@ -329,21 +343,23 @@ footer {
       padding-top: 135px;
       padding-bottom: 80px; } }
 
+.menu-page .menu-intro, .reservations-page .menu-intro {
+  padding: 0 30px;
+  max-width: 800px;
+  margin: auto; }
 .menu-page body, .reservations-page body {
   background-color: #19559F; }
 .menu-page header, .reservations-page header {
   font-family: "Montserrat", sans-serif; }
-.menu-page img, .reservations-page img {
+.menu-page .meal img, .reservations-page .meal img {
   width: 90%;
   margin: 0 auto;
   display: block; }
 .menu-page .wrapper, .reservations-page .wrapper {
   background-color: white;
-  color: #19559F;
   width: 90%;
   margin: 0 auto;
   padding: 10px;
-  border-radius: 20px;
   animation: fadeIn ease 2s, mymove 5s infinite;
   -webkit-animation: fadeIn ease 2s;
   -moz-animation: fadeIn ease 2s;
@@ -354,7 +370,7 @@ footer {
     padding-bottom: 24px; }
   .menu-page .wrapper p, .reservations-page .wrapper p {
     padding-bottom: 25px; }
-  .menu-page .wrapper img, .reservations-page .wrapper img {
+  .menu-page .wrapper .meal img, .reservations-page .wrapper .meal img {
     padding-top: 20px;
     padding-bottom: 20px; }
 .menu-page ul, .reservations-page ul {
@@ -389,7 +405,7 @@ footer {
     padding: 30px; }
     .menu-page .menu-page .wrapper h1, .menu-page .reservations-page .wrapper h1, .reservations-page .menu-page .wrapper h1, .reservations-page .reservations-page .wrapper h1 {
       padding-top: 90px; }
-  .menu-page img, .reservations-page img {
+  .menu-page .meal img, .reservations-page .meal img {
     width: 36%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -397,7 +413,7 @@ footer {
     display: flex;
     flex: 1; } }
 @media (min-width: 900px) {
-  .menu-page img, .reservations-page img {
+  .menu-page .meal img, .reservations-page .meal img {
     width: 28%;
     display: inline-flex;
     justify-content: space-evenly;
@@ -406,15 +422,46 @@ footer {
     margin: 0 auto;
     padding: 0; }
   .menu-page .wrapper, .reservations-page .wrapper {
-    width: 60%;
+    max-width: 1200px;
     padding-top: 90px;
     margin: 0 auto; }
   .menu-page .desserts, .reservations-page .desserts {
-    padding-top: 20px;
     column-count: 2; } }
+
+.menu-page main {
+  max-width: 1000px;
+  margin: auto; }
+.menu-page h2 {
+  background-color: #19559F;
+  padding: 25px;
+  color: white;
+  font-weight: 300;
+  margin-bottom: 40px; }
+.menu-page h4 {
+  margin-bottom: 10px;
+  margin-top: 15px; }
+.menu-page .menu-items p {
+  padding-bottom: 10px; }
+.menu-page .desserts {
+  margin-bottom: 30px; }
+.menu-page footer img {
+  text-align: center;
+  margin-left: auto;
+  display: inline; }
 
 .about {
   text-align: center; }
+  .about .wrapper {
+    animation: fadeIn ease 2s, mymove 5s infinite;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s; }
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
   .about .banner {
     position: relative;
     max-width: 1200px;
@@ -433,8 +480,11 @@ footer {
     background-color: #19559F;
     padding-top: 25px;
     height: 80px; }
-  .about p {
+  .about p, .about a {
     font-family: "Amiko", sans-serif; }
+  .about a {
+    color: #010022;
+    text-decoration: none; }
   .about main {
     padding: 20px 10px;
     max-width: 1000px;
@@ -442,14 +492,14 @@ footer {
   .about .about {
     margin-bottom: 50px; }
     .about .about h1 {
-      margin-top: 100px;
-      padding-bottom: 20px; }
+      margin-top: 60px;
+      padding-bottom: 30px; }
   .about .mission {
     margin-bottom: 50px; }
     .about .mission h3 {
-      margin: 50px; }
+      margin: 50px 0 30px 0; }
   .about .welcome {
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     margin-top: 20px; }
   .about .welcome p {
     margin-bottom: 20px; }
@@ -487,11 +537,12 @@ footer {
       padding-right: 10px; }
     .about h3 {
       margin: 0;
-      margin-top: 10px; } }
+      margin-top: 10px;
+      margin-bottom: 10px; } }
   @media (min-width: 1000px) {
     .about .wrapper {
       padding-top: 135px;
-      padding-bottom: 80px; } }
+      padding-bottom: 60px; } }
 
 .reservations-page ul, .menu-page ul {
   padding-top: 3px; }
@@ -515,7 +566,6 @@ footer {
   display: block;
   margin: 0 auto;
   padding-top: 20px;
-  border-radius: 20px;
   font-family: "Amiko", sans-serif;
   line-height: 40px;
   animation: fadeIn ease 2s, mymove 5s infinite;
@@ -526,6 +576,12 @@ footer {
 .reservations-page .wrapper ul, .reservations-page .wrapper li, .menu-page .wrapper ul, .menu-page .wrapper li {
   padding: 0;
   margin: 0 auto; }
+.reservations-page .form-entry, .menu-page .form-entry {
+  padding-bottom: 15px; }
+  .reservations-page .form-entry li, .menu-page .form-entry li {
+    padding: 5px 0; }
+.reservations-page .more-seats, .menu-page .more-seats {
+  padding-top: 15px; }
 @keyframes fadeIn {
   0% {
     opacity: 0; }
@@ -553,7 +609,7 @@ footer {
   width: 80%; }
 @media (min-width: 600px) {
   .reservations-page form, .menu-page form {
-    line-height: 40px;
+    line-height: 30px;
     padding: 10px;
     margin: 0 auto; }
   .reservations-page .name, .menu-page .name {
@@ -561,5 +617,14 @@ footer {
 @media (min-width: 900px) {
   .reservations-page .wrapper, .menu-page .wrapper {
     padding-top: 60px; } }
+
+.reservations-page .wrapper {
+  color: black; }
+.reservations-page form {
+  padding-bottom: 50px; }
+.reservations-page footer img {
+  text-align: center;
+  margin-left: auto;
+  display: inline; }
 
 /*# sourceMappingURL=styles.css.map */

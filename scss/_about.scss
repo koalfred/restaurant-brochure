@@ -39,8 +39,13 @@
         height: 80px;
     }
 
-    p {
+    p, a {
         font-family: $body;
+    }
+
+    a {
+        color: rgb(1, 0, 34);
+        text-decoration: none;
     }
 
     main {
