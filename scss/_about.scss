@@ -39,13 +39,8 @@
         height: 80px;
     }
 
-    p, a {
+    p {
         font-family: $body;
-    }
-
-    a {
-        color: rgb(1, 0, 34);
-        text-decoration: none;
     }
 
     main {
@@ -90,6 +85,35 @@
         justify-content: space-evenly;
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+
+    //site-maker styles go here!
+    .site-maker {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    
+        a {
+        font-family: $logo;
+        font-weight: bold;
+        color: #010121;
+        text-decoration: none;
+        padding-top: 50px;
+        }
+
+        @media (min-width: 500px) {
+            flex-direction: row;
+
+            a {
+                padding-top: 0;
+            }
+        }
+    
+        @media (min-width: 1000px) {
+        padding-bottom: 0;
+        }
     }
 
     @media (min-width: 500px) {
